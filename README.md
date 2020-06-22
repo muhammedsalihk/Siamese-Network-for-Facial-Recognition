@@ -27,4 +27,3 @@ The triplets were sampled from a set of 100 celebrity face images obtained from 
 ![Network](https://github.com/muhammedsalihk/Siamese-Network-for-Facial-Recognition/blob/master/Images/CNN.png)
 
 Note - Using an L2 norm layer at the end for the embedding was very useful in the training process as the embeddings could be limited to the surface of an hyperspehere of radius one from the origin rather than being spread out across the n-dimensional space (where n is the number of units in the output layer). The use of normalisation helped in making the learning much faster.
-
